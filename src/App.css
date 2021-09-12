@@ -1,0 +1,58 @@
+.app{
+    background-color: #F7F7F7;
+    max-width: 100%;
+    overflow-x: hidden;
+    z-index: -1;
+}
+.app_mid{
+    margin-left: 15vw;
+    max-width: 10vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 30px;
+    
+}
+
+.app_mid > h1{
+    margin-top: 30px;
+    color: #FB1F62;
+    margin-left: 15px;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+    font-family: 'Alegreya', serif;
+}
+.app_collab{
+    display: flex;
+    align-items: center;
+}
+.app_collabText > h1{
+    color: #FB1F62;
+    padding: 10px;
+    margin: 10px;
+}
+.app_collabText{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.app_collab > img{
+    margin-left: 10px;
+    object-fit: contain;
+    margin-top: 50px;
+    height: 300px;
+    width: 400px;
+}
+.btn{
+    margin-left: 30px;
+}
+.btn>.MuiButton-text{
+    color: white;
+}
+.app_submit{
+    display: flex;
+    flex-direction: column;
+}

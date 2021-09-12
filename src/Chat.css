@@ -1,0 +1,33 @@
+.chat{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+}
+.chat_title{
+    text-align: center;
+}
+.chat_title>p{
+    font-size: 20px;
+    font-weight: 700;
+}
+.chat_section{
+    
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px darkgray;
+}
+.chat_section>p{
+    font-size: 20px;
+}
+.chat_section>input{
+    font-size: 20px;
+    padding: 5px;
+    border: none;
+    border-bottom: 3px solid blueviolet;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
